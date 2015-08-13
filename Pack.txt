@@ -1,0 +1,3 @@
+From: <$Repositories$>\WpfExtendedToolkit\
+
+nuget pack .\nuget\Extended.Wpf.Toolkit.NoDataGrid.nuspec -Version [Version]

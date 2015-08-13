@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Extended.Wpf.Toolkit.NoDataGrid</id>
+    <version>$version$</version>
+    <title>Extended WPF Toolkit (No DataGrid)</title>
+    <authors>DotNetProjects</authors>
+    <owners>DotNetProjects</owners>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://github.com/dotnetprojects/WpfExtendedToolkit</projectUrl>
+    <iconUrl>http://xceed.com/images/SocialNetworks/LogoXCEEDTwitter.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extended WPF Toolkit is the number one collection of WPF controls, components and utilities for creating next generation Windows applications. Provides 40+ controls, all offered under the Microsoft Public License for maximum freedom. Community Edition v2.5 provides 45 improvements and a new control: WatermarkComboBox. Documentation, source, and discussions are hosted on CodePlex at http://wpftoolkit.codeplex.com. Plus Edition at http://wpftoolkit.com</description>
+    <summary>Extended WPF Toolkit is the number one collection of WPF controls for creating next-gen Windows apps. Community Edition v2.5 provides 45 improvements, and a new control: WatermarkComboBox.</summary>
+    <releaseNotes>Community Edition v2.5 provides 45 improvements, and a new control: WatermarkComboBox.</releaseNotes>
+    <copyright>Copyright © Xceed Software Inc. 2010-2015</copyright>
+    <tags>Extended WPF Toolkit Community Edition</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework3.5, .NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="..\Src\Xceed.Wpf.Toolkit\bin\Release\**\*.*" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock\bin\Release\**\*.*" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.pdb" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.pdb" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock.Themes.VS2010\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" target="lib\net40" />
+    <file src="..\Src\Xceed.Wpf.AvalonDock.Themes.VS2010\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.pdb" target="lib\net40" />
+  </files>
+</package>
